@@ -2,48 +2,42 @@
 
 <h2> Introduction </h2>
 
-Real World maps is a project designed to take an input of coordinates and roads then convert them to an electronic map that can be displayed using java graphics. Moreover the program provides the two features:
-1- Get the Minimum spanning tree of the graph and display it.
+Real World maps is a project designed to take an input of coordinates and roads then convert them to an electronic map that can be displayed using java graphics. Moreover the program provides the two features:<br>
+1- Get the Minimum spanning tree of the graph and display it.<br>
 2-Tell the user the shortest path from one point to another.
 <br>
 <h2>Files in the program</h2>
 ur.txt : example input file.<br>
 Monroe.txt: example input file.<br>
 Most files provided with this program are classes that are used to create objects in the main file.<br>
-<strong>Main </strong>: contain main algorithm and it’s called to perform the other function <br>
+<strong> Main </strong>: contain main algorithm and it’s called to perform the other function <br>
 <h2>Simple explanation </h2>
-The program uses java graphics to represent real life maps of real locations. The vertices of the graph are represented with a symbol graph. The program also has two features: 
-1- Finding the minimum spanning tree using Lazy Prim MST algorithm.
+The program uses java graphics to represent real life maps of real locations. The vertices of the graph are represented with a symbol graph. The program also has two features: <br>
+1- Finding the minimum spanning tree using Lazy Prim MST algorithm.<br>
 2- Find the shortest distance between two points using Dijkstra algorithm.
-
-
-<h2>Examples/h2>
+<br>
+<h2>Examples</h2>
 Input file: <br>
 Example 1: 
+
 ```powershell
 Java Main monroe.txt show
 ```
-Monroe.txt file which contains the real coordinates of locations and roads in monroe county area.
-<br>
-The input file is represented as follows:<br>
-Each line starts with either i for coordinate of point or r for road between two points. 
-<img width="437" alt="image" src="https://user-images.githubusercontent.com/105813102/184509055-300d7f57-46bd-4393-a0df-83225875498b.png">
-If you run this file with the command show you get this map drawn with java graphics:
-—--------------- <br>
-==========<br>
-==========<br>
-==========<br>
+Monroe.txt file which contains the real coordinates of locations and roads in monroe county area. The input file is represented as follows:<br>
+Each line starts with either i for coordinate of point or r for road between two points. <br>
+<img width="437" alt="image" src="https://user-images.githubusercontent.com/105813102/184509055-300d7f57-46bd-4393-a0df-83225875498b.png"><br>
+If you run this file with the command show you get this map drawn with java graphics:<br>
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/105813102/184509231-02f4138b-2b5c-4041-81af-d0357bb131aa.png">
 
-Example 2:
+Example 2:<br>
 ```powershell
-Java Main ur.txt show meridinamap
+Java Main ur.txt show meridianmap
 ```
 Another simple input file example is ur.txt which represents the locations and roads in university of rochester. <br>
-If the command meridinamap is used, the program returns an output.txt file in the same folder which includes the main file. The output file has only the name of the roads needed in the minimum spanning tree. The program also output the map with the minimum spanning tree colored in red as shown:
-—--------------- <br>
-==========<br>
-==========<br>
-==========<br>
+If the command meridinamap is used, the program returns an output.txt file in the same folder which includes the main file. The output file has only the name of the roads needed in the minimum spanning tree. The program also output the map with the minimum spanning tree colored in red as shown:<br>
+
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/105813102/184509414-7109ee2d-0c97-4d34-a481-9b66f6b7256a.png">
+
 
 <br>
 Example 3:<br>
@@ -52,12 +46,9 @@ If the command directions is called with start point and target points, the prog
 
 ```powershell
  Java Main ur.txt show directions WILDER LATTIMORE
-```
- —--------------- <br>
-==========<br>
-==========<br>
-==========<br>
-
+``` 
+<br>
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/105813102/184509251-44f5b7ae-4204-4685-b5af-b1920947c58b.png">
 
 
 <h2>How to run </h2>
